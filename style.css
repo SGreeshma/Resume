@@ -1,0 +1,85 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    font-size: 14px;
+    max-width: 960px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3.5em;
+    letter-spacing: 0.4em;
+    margin: 0;
+}
+
+hr {
+    border: none;
+    background-color: lightgray;
+    height: 1px;
+    margin: 10px 0;
+}
+
+p {
+    margin: 5px 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+}
+
+/* Layout */
+main {
+    display: flex;
+}
+
+#mainLeft, #mainRight {
+    padding: 20px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+#mainLeft {
+    border-right: 1px solid lightgray;
+}
+
+#mainRight {
+    padding-left: 30px;
+}
+
+/* Contact Section */
+#mainLeft section p {
+    display: flex;
+    align-items: center;
+}
+
+i {
+    margin-right: 10px;
+}
+
+/* Skills and Education */
+#mainLeft h3 {
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+#mainLeft p {
+    margin-bottom: 10px;
+}
+
+/* Work Experience */
+#mainRight ul {
+    margin: 10px 0 0 20px;
+    padding: 0;
+    list-style-type: disc;
+}
