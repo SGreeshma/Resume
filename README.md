@@ -22,5 +22,9 @@ resume-project/
 ├── style.css          # Styling for resume layout
 └── README.md          # Project description
 
+## Screenshot
+### Resume
+<img width="664" height="763" alt="Screenshot (122)" src="https://github.com/user-attachments/assets/83aa345e-f9fc-40b7-a5df-93eb32ff0d49" />
+
 ## License
 This project is open source under the MIT License.
